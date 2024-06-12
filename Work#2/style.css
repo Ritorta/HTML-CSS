@@ -1,0 +1,118 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+.styleMenu {
+  color: rgb(244, 57, 10);
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.styleh1 {
+  color: #2023ff;
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.styleP_M {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #bfb11b;
+}
+
+.styleP_C {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #d6c849;
+}
+
+.styleh2 {
+  color: #dc0b0b;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.styleh3 {
+  color: #30ac45;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+#stylehWellcome {
+  color: rgb(143, 0, 0);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+}
+
+.styleIMG {
+  border-radius: 70px 20px 70px 20px;
+  width: 300px;
+  height: 250px;
+}
+
+.styleP_L {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #36cc00;
+}
+
+.stylebutton_L {
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.styleinputspass_L {
+  width: 200px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #b2ddb9;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.styleinputmail_L {
+  width: 200px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #b2ddb9;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.styleinputname_L {
+  width: 200px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #b2ddb9;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 30px;
+}
