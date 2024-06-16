@@ -57,6 +57,8 @@ body {
   font-weight: 600;
   font-size: 16px;
   color: #aaa;
+  border: none;
+  background: transparent;
 }
 
 .img_logo {
