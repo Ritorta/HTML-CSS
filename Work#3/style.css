@@ -4,26 +4,26 @@ body {
   --font-family: "Inter", sans-serif;
 }
 
-.Menu_Home_style {
+.headerContent_Home_style {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 14px;
   color: #f25822;
 }
 
-.Menu_style {
+.headerContent_style {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 14px;
   color: #000;
 }
 
-.Menu_style_triangyl::after {
+.headerContent_style_triangyl::after {
   content: url(./img/menu_triangyl.svg);
   margin-left: 3px;
 }
 
-.style_h1 {
+.mainContent_style_h1 {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 60px;
@@ -31,7 +31,7 @@ body {
   color: #000;
 }
 
-.style_p {
+.mainContent_style_p {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 20px;
@@ -39,7 +39,7 @@ body {
   color: #888;
 }
 
-.style_but_start {
+.mainContent_style_but_start {
   border-radius: 56px;
   padding: 16px 10px;
   width: 140px;
@@ -53,7 +53,7 @@ body {
   border: none;
 }
 
-.style_but_wath {
+.mainContent_style_but_wath {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 16px;
@@ -62,17 +62,17 @@ body {
   background: transparent;
 }
 
-.img_logo {
+.headerContent_img_logo {
   width: 137px;
   height: 40px;
 }
 
-.img_main {
+.mainContent_img_main {
   width: 545px;
   height: 375px;
 }
 
-.img_braid_logo {
+.footerContent_img_braid_logo {
   width: 134px;
   height: 50px;
 }
@@ -80,4 +80,8 @@ body {
 .conteiner {
   max-width: 1174px;
   margin: 0 auto;
+}
+
+.header {
+  padding: 37px 0;
 }
