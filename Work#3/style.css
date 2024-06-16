@@ -1,0 +1,64 @@
+body {
+  --font-family: "Inter", sans-serif;
+}
+
+.Menu_Home_style {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  color: #f25822;
+}
+
+.Menu_style {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+}
+
+.style_h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 120%;
+  color: #000;
+}
+
+.style_p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #888;
+}
+
+.style_but_start {
+  border-radius: 56px;
+  padding: 16px 10px;
+  width: 140px;
+  height: 51px;
+  box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+  background: #f25822;
+}
+
+.style_but_wath {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  color: #aaa;
+}
+
+.img_logo {
+  width: 137px;
+  height: 40px;
+}
+
+.img_main {
+  width: 545px;
+  height: 375px;
+}
+
+.img_braid_logo {
+  width: 134px;
+  height: 50px;
+}
