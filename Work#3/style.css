@@ -10,8 +10,10 @@ body {
 }
 
 .header {
-  padding: 40px 0;
+  padding-top: 40px;
   margin-bottom: 84px;
+  padding-left: 373px;
+  padding-right: 373px;
 }
 
 .headerContent {}
@@ -35,16 +37,18 @@ body {
   font-weight: 400;
   font-size: 14px;
   color: #000;
-  margin: 14px;
+  margin-right: 14px;
 }
 
 .headerContent_style_triangyl::after {
   content: url(./img/menu_triangyl.svg);
-  margin-left: 3px;
+  margin-left: 6px;
 }
 
 .main {
   margin-bottom: 100px;
+  padding-left: 373px;
+  padding-right: 373px;
 }
 
 .mainContent {}
@@ -55,6 +59,7 @@ body {
   font-size: 60px;
   line-height: 120%;
   color: #000;
+  margin-bottom: 20px;
 }
 
 .mainContent_style_p {
@@ -63,6 +68,7 @@ body {
   font-size: 20px;
   line-height: 140%;
   color: #888;
+  margin-bottom: 32px;
 }
 
 .mainContent_style_but_start {
@@ -86,11 +92,13 @@ body {
   color: #aaa;
   border: none;
   background: transparent;
+  margin-left: 48px;
 }
 
 .mainContent_img_main {
   width: 545px;
   height: 375px;
+  margin-left: 73px;
 }
 
 .footer {
@@ -100,4 +108,5 @@ body {
 .footerContent img {
   width: 134px;
   height: 50px;
+  margin-right: 48px;
 }
