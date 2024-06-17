@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
