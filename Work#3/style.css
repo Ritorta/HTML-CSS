@@ -4,6 +4,24 @@ body {
   --font-family: "Inter", sans-serif;
 }
 
+.conteiner {
+  max-width: 1174px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 40px 0;
+  margin-bottom: 84px;
+}
+
+.headerContent {}
+
+.headerContent_img_logo {
+  width: 137px;
+  height: 40px;
+  margin-right: 460px;
+}
+
 .headerContent_Home_style {
   font-family: var(--font-family);
   font-weight: 600;
@@ -24,6 +42,12 @@ body {
   content: url(./img/menu_triangyl.svg);
   margin-left: 3px;
 }
+
+.main {
+  margin-bottom: 100px;
+}
+
+.mainContent {}
 
 .mainContent_style_h1 {
   font-family: var(--font-family);
@@ -64,36 +88,16 @@ body {
   background: transparent;
 }
 
-.headerContent_img_logo {
-  width: 137px;
-  height: 40px;
-  margin-right: 460px;
-}
-
 .mainContent_img_main {
   width: 545px;
   height: 375px;
 }
 
-.footerContent_img_braid_logo {
-  width: 134px;
-  height: 50px;
-}
-
-.conteiner {
-  max-width: 1174px;
-  margin: 0 auto;
-}
-
-.header {
-  padding: 40px 0;
-  margin-bottom: 84px;
-}
-
-.main {
-  margin-bottom: 100px;
-}
-
 .footer {
   margin: 100px 0;
+}
+
+.footerContent img {
+  width: 134px;
+  height: 50px;
 }
