@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  --font-family: "Inter", sans-serif;
+}
+
+.conteiner {
+  max-width: 1174px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 40px;
+  margin-bottom: 84px;
+  padding-left: 373px;
+  padding-right: 373px;
+}
+
+.headerContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headerContent_menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: center;
+  max-width: 577px;
+}
+
+.headerContent_img_logo {
+  width: 137px;
+  height: 40px;
+  padding-right: 460px;
+}
+
+.headerContent_Home_style {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  color: #f25822;
+}
+
+.headerContent_style {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+}
+
+.headerContent_style_triangyl::after {
+  content: url(./img/menu_triangyl.svg);
+  margin-left: 6px;
+}
+
+.main {
+  margin-bottom: 100px;
+  padding-left: 373px;
+  padding-right: 373px;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: first baseline;
+}
+
+.mainContent_text_blok {
+  max-width: 556px;
+}
+
+.mainContent_style_h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 120%;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.mainContent_style_p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #888;
+  margin-bottom: 32px;
+}
+
+.mainContent_button_flex_all {
+  display: flex;
+  justify-content: flex-start;
+  gap: 48px;
+  align-items: center;
+}
+
+.mainContent_style_but_start {
+  border-radius: 56px;
+  padding: 16px 10px;
+  width: 140px;
+  height: 51px;
+  box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+  background: #f25822;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+}
+
+.mainContent_style_but_wath {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  color: #aaa;
+  border: none;
+  background: transparent;
+}
+
+.mainContent_img_main {
+  max-width: 545px;
+  height: 375px;
+  margin-left: 73px;
+}
+
+.footer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: inline-block;
+  width: 100%;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.footerContent img {
+  width: 134px;
+  height: 50px;
+}
