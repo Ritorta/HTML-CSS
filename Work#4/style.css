@@ -18,9 +18,15 @@ body {
 
 .headerContent {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.headerContent_menu {
+  display: flex;
   justify-content: space-between;
   gap: 14px;
   align-items: center;
+  max-width: 577px;
 }
 
 .headerContent_img_logo {
