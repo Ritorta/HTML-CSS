@@ -19,6 +19,7 @@ body {
 .headerContent {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .headerContent_menu {
@@ -26,7 +27,7 @@ body {
   justify-content: space-between;
   gap: 14px;
   align-items: center;
-  max-width: 577px;
+  width: 577px;
 }
 
 .headerContent_img_logo {
@@ -63,6 +64,7 @@ body {
 .mainContent {
   display: flex;
   justify-content: first baseline;
+  margin-bottom: 100px; /* Наслоение на нижние лого исправить */
 }
 
 .mainContent_text_blok {
@@ -123,20 +125,60 @@ body {
   margin-left: 73px;
 }
 
-.footer {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  display: inline-block;
-  width: 100%;
-}
-
-.footerContent {
+.down_logo_Content {
   display: flex;
   justify-content: space-between;
   gap: 48px;
+  width: 100%;
+  margin-top: 100px; /* Наслоение на верние меню исправить */
 }
 
-.footerContent img {
+.down_logo_Content_img {
   width: 134px;
   height: 50px;
 }
+
+.features {
+  
+}
+
+.card_features {
+
+}
+
+.features_img {
+  
+}
+
+.features_style_h1 {
+
+}
+
+.features_style_h2 {
+
+}
+
+.features_style_h3 {
+
+}
+
+.services_titel {
+
+}
+
+.services_titel_h1 {
+
+}
+
+.services_titel_h2 {
+
+}
+
+.services {
+
+}
+
+.services_card {
+
+}
+
