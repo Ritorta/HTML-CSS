@@ -138,13 +138,16 @@ body {
 }
 
 .features {
-  padding-top: 100px;
-  margin-bottom: 100px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  /* Гриды.... */
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  grid-template-columns: auto auto auto;
+  column-gap: 61px;
   column-gap: 20px;
-  
+  max-width: 1920px;
+  max-height: 510px;
+  padding-top: 100px;
+  margin-bottom: 100px; 
 }
 
 .card_features_1 {
@@ -191,7 +194,6 @@ body {
 .features_text_block {
   max-width: 310px;
   max-height: 89px;
-
 }
 
 .features_style_h2 {
@@ -212,21 +214,12 @@ body {
 }
 
 .services {
-  padding-top: 100px;
-  margin-bottom: 100px;
-  /* В секции есть свой отдельный фон */
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* Гриды.... */
-  column-gap: 20px;
-  width: 1920px;
-  height: 916px;
-  background: #fafafa;
+  
 }
 
 .services_titel {
-  width: 1174px;
-  height: 126px;
+  max-width: 1174px;
+  max-height: 126px;
 }
 
 .services_titel_h1 {
@@ -248,22 +241,27 @@ body {
 }
 
 .services_box {
-  width: 1174px;
-  height: 542px;
+  max-width: 1174px;
+  max-height: 542px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
 }
 
 .services_card_1 {
   padding: 0px 34px 34px 34px;
-  width: 378px;
-  height: 542px;
+  max-width: 378px;
+  max-height: 542px;
   background: #fff;
 }
 
 .services_card_2 {
   /* Укары свой фон т внешняя обводка*/
   padding: 0px 34px 34px 34px;
-  width: 378px;
-  height: 542px;
+  max-width: 378px;
+  max-height: 542px;
 
   box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
   background: #fff;
@@ -272,8 +270,8 @@ body {
 .services_card_3 {
   /* Укары свой фон */
   padding: 0px 34px 34px 34px;
-  width: 378px;
-  height: 542px;
+  max-width: 378px;
+  max-height: 542px;
   background: #fff;
 }
 
