@@ -143,11 +143,10 @@ body {
   place-items: center;
   grid-template-columns: auto auto auto;
   column-gap: 61px;
-  column-gap: 20px;
   max-width: 1920px;
   max-height: 510px;
   padding-top: 100px;
-  padding-bottom: 100px; 
+  padding-bottom: 100px;
 }
 
 .card_features_1 {
@@ -214,19 +213,23 @@ body {
 }
 
 .services {
-display: grid;
-grid-template-columns: repeat(9, 1fr);
-column-gap: 20px;
-max-width: 1920px;
-max-height: 916px;
-padding-top: 100px;
-padding-bottom: 100px;
-background: rgb(250, 250, 250);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1920px;
+  max-height: 916px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: rgb(250, 250, 250);
 }
 
 .services_titel {
+  display: flex;
+  flex-direction: column;
   max-width: 1174px;
   max-height: 126px;
+  margin-bottom: 48px;
+  grid-column: 1 / -1;
+  grid-row: 1;
 }
 
 .services_titel_h1 {
@@ -236,55 +239,64 @@ background: rgb(250, 250, 250);
   line-height: 120%;
   text-align: center;
   color: #000;
+  margin: 0 256px;
+  margin-bottom: 24px;
 }
 
 .services_titel_h2 {
+  margin: 0 217px;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
   text-align: center;
   color: #888;
+  margin-bottom: 48px;
 }
 
 .services_box {
-  max-width: 1174px;
-  max-height: 542px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  padding: 0px;
+  column-gap: 20px;
+  max-width: 1174px;
+  max-height: 542px;
+  grid-column: 2 / -2;
+  grid-row: 2;
 }
 
 .services_card_1 {
   padding: 0px 34px 34px 34px;
-  max-width: 378px;
+  width: 378px;
   max-height: 542px;
   background: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 .services_card_2 {
-  /* Укары свой фон т внешняя обводка*/
   padding: 0px 34px 34px 34px;
-  max-width: 378px;
+  width: 378px;
   max-height: 542px;
-
   box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
   background: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 .services_card_3 {
-  /* Укары свой фон */
   padding: 0px 34px 34px 34px;
-  max-width: 378px;
+  width: 378px;
   max-height: 542px;
   background: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 .service_img {
   width: 378px;
   height: 284px;
+  margin-bottom: 32px;
 }
 
 .services_style_h1 {
@@ -293,6 +305,7 @@ background: rgb(250, 250, 250);
   font-size: 24px;
   text-align: center;
   color: #000;
+  margin-bottom: 16px;
 }
 
 .services_style_h2 {
@@ -302,16 +315,23 @@ background: rgb(250, 250, 250);
   line-height: 150%;
   text-align: center;
   color: #666;
+  margin-bottom: 24px;
 }
 
-.servoce_button {
+.service_button {
+  
   border-radius: 56px;
   padding: 16px 32px;
   width: 166px;
   height: 51px;
   box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
   background: #f25822;
+}
 
+.service_button_text {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 16px;
