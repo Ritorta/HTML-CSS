@@ -10,13 +10,11 @@ body {
 }
 
 .header {
-  padding-top: 40px;
   margin-bottom: 84px;
-  padding-left: 373px;
-  padding-right: 373px;
 }
 
 .headerContent {
+  padding-top: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -64,7 +62,6 @@ body {
 .mainContent {
   display: flex;
   justify-content: first baseline;
-  margin-bottom: 100px; /* Наслоение на нижние лого исправить */
 }
 
 .mainContent_text_blok {
@@ -123,6 +120,7 @@ body {
   max-width: 545px;
   height: 375px;
   margin-left: 73px;
+  margin-bottom: 100px;
 }
 
 .down_logo_Content {
@@ -130,7 +128,8 @@ body {
   justify-content: space-between;
   gap: 48px;
   width: 100%;
-  margin-top: 100px; /* Наслоение на верние меню исправить */
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .down_logo_Content_img {
@@ -139,45 +138,46 @@ body {
 }
 
 .features {
+  padding-top: 100px;
+  margin-bottom: 100px;
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: repeat(3, 1fr); 
+  /* Гриды.... */
   column-gap: 20px;
-
+  
 }
 
 .card_features_1 {
-  width: 310px;
-  height: 230px;
-
+  max-width: 310px;
+  max-height: 230px;
 }
 
 .card_features_2 {
   padding: 40px 34px;
-  width: 378px;
-  height: 310px;
+  max-width: 378px;
+  max-height: 310px;
   box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
   background: #fff;
-
-
-/* у карточки есть воё наружное выделение */
 }
 
 .card_features_3 {
-  width: 310px;
-  height: 230px;
-
+  max-width: 310px;
+  max-height: 230px;
 }
 
 .features_img_1 {
   content: url(./img/features_icon_red.svg);
+  padding-bottom: 25px;
 }
 
 .features_img_2 {
   content: url(./img/features_icon_green.svg);
+  padding-bottom: 25px;
 }
 
 .features_img_3 {
   content: url(./img/features_icon_yeelow.svg);
+  padding-bottom: 25px;
 }
 
 .features_style_h1 {
@@ -185,7 +185,13 @@ body {
   font-weight: 700;
   font-size: 24px;
   color: #000;
-  
+  padding-bottom: 18px;
+}
+
+.features_text_block {
+  max-width: 310px;
+  max-height: 89px;
+
 }
 
 .features_style_h2 {
@@ -194,7 +200,6 @@ body {
   font-size: 14px;
   line-height: 150%;
   color: #666;
-  
 }
 
 .features_style_h3 {
@@ -203,24 +208,22 @@ body {
   font-size: 14px;
   line-height: 150%;
   color: #000;
-  
+  padding-top: 25px;
 }
 
 .services {
-/* В секции есть свой отдельный фон */
-display: grid;
-grid-template-columns: repeat(9, 1fr);
-column-gap: 20px;
-padding: 100px 373px;
-width: 1920px;
-height: 916px;
-background: #fafafa;
+  /* В секции есть свой отдельный фон */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  width: 1920px;
+  height: 916px;
+  background: #fafafa;
 }
 
-.services_titel { 
+.services_titel {
   width: 1174px;
   height: 126px;
-  
 }
 
 .services_titel_h1 {
@@ -230,23 +233,20 @@ background: #fafafa;
   line-height: 120%;
   text-align: center;
   color: #000;
-  
 }
 
 .services_titel_h2 {
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-line-height: 140%;
-text-align: center;
-color: #888;
-
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #888;
 }
 
 .services_box {
   width: 1174px;
   height: 542px;
-  
 }
 
 .services_card_1 {
@@ -254,33 +254,29 @@ color: #888;
   width: 378px;
   height: 542px;
   background: #fff;
-
 }
 
 .services_card_2 {
-/* Укары свой фон т внешняя обводка*/
-padding: 0px 34px 34px 34px;
-width: 378px;
-height: 542px;
+  /* Укары свой фон т внешняя обводка*/
+  padding: 0px 34px 34px 34px;
+  width: 378px;
+  height: 542px;
 
-box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
-background: #fff;
-
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+  background: #fff;
 }
 
 .services_card_3 {
-/* Укары свой фон */
-padding: 0px 34px 34px 34px;
-width: 378px;
-height: 542px;
-background: #fff;
-
+  /* Укары свой фон */
+  padding: 0px 34px 34px 34px;
+  width: 378px;
+  height: 542px;
+  background: #fff;
 }
 
 .service_img {
   width: 378px;
   height: 284px;
-  
 }
 
 .services_style_h1 {
@@ -289,7 +285,6 @@ background: #fff;
   font-size: 24px;
   text-align: center;
   color: #000;
-  
 }
 
 .services_style_h2 {
@@ -299,20 +294,18 @@ background: #fff;
   line-height: 150%;
   text-align: center;
   color: #666;
-  
 }
 
 .servoce_button {
   border-radius: 56px;
-padding: 16px 32px;
-width: 166px;
-height: 51px;
-box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
-background: #f25822;
+  padding: 16px 32px;
+  width: 166px;
+  height: 51px;
+  box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+  background: #f25822;
 
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 16px;
   color: #fff;
-  
 }
