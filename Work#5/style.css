@@ -212,9 +212,12 @@ body {
 }
 
 .services {
+  padding-top: 100px;
+  margin-bottom: 100px;
   /* В секции есть свой отдельный фон */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  /* Гриды.... */
   column-gap: 20px;
   width: 1920px;
   height: 916px;
