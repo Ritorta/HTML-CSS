@@ -140,12 +140,13 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
-  grid-template-columns: auto auto auto;
   column-gap: 61px;
-  max-width: 1920px;
+  max-width: 1174px;
   max-height: 510px;
   padding-top: 100px;
   padding-bottom: 100px;
+  justify-content: center;
+  align-content: center;
 }
 
 .card_features_1 {
