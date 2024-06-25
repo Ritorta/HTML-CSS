@@ -1,0 +1,50 @@
+.left_line {
+  border-left: 12px solid #f16d7f;
+}
+
+.baner_color_text {
+  color: #f16d7f;
+}
+
+.text_item_box_h2 {
+  color: rgb(241, 109, 127);
+}
+
+.baner_backround {
+  background: rgb(241, 228, 230);
+}
+
+.menu_head {
+  background: rgb(34, 34, 34);
+}
+
+.Item_box_image_1 {
+  background: rgb(248, 248, 248);
+}
+
+.Item_box_image_2 {
+  background: rgb(248, 248, 248);
+}
+
+.Item_box_image_3 {
+  background: rgb(248, 248, 248);
+}
+
+.Item_box_image_4 {
+  background: rgb(248, 248, 248);
+}
+
+.Item_box_image_5 {
+  background: rgb(248, 248, 248);
+}
+
+.Item_box_image_6 {
+  background: rgb(248, 248, 248);
+}
+
+.brouse_button {
+  position: absolute;
+  width: 211px;
+  height: 47px;
+  border: 1px solid rgb(255, 106, 106);
+}
