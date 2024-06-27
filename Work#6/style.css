@@ -1,25 +1,120 @@
-.left_line {
-  border-left: 12px solid #f16d7f;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  --font-family: "Lato", sans-serif;
 }
 
-.baner_color_text {
-  color: #f16d7f;
+.conteiner {
+  max-width: 100%;
+  margin: 0 auto; 
+  padding: 0;
 }
 
-.text_item_box_h2 {
-  color: rgb(241, 109, 127);
+.header {
+
+}
+
+.head_menu {
+  background: #222;
+}
+
+.menu_logo {
+
+}
+
+.menu_icon_search::after {
+  content: url(./img/icon_search.svg);
+}
+
+.menu_icon_menu::after {
+  content: url(./img/icon_menu.svg);
+}
+
+.menu_icon_profile::after {
+  content: url(./img/icon_profile.svg);
+}
+
+.menu_icon_backed::after {
+  content: url(./img/icon_basked.svg);
 }
 
 .baner_backround {
   background: rgb(241, 228, 230);
 }
 
-.menu_head {
-  background: rgb(34, 34, 34);
+.baner_rigth_line_text {
+  border-left: 12px solid #f16d7f;
+}
+
+
+
+.main {
+
+}
+
+.first_box {
+
+}
+
+.frst_card_image_1 {
+
+}
+
+.image_mask::after {
+  content: url(./img/mask_firt_box.svg);
+  fill: rgba(33, 22, 22, 0.7);
+}
+
+.text_card {
+
+}
+
+.baner_color_text {
+  color: #f16d7f;
+}
+
+.second_card_image_1 {
+
+}
+
+.second_card_image_2 {
+
+}
+
+.Third_card_image_3 {
+
+}
+
+.Four_card_image_4 {
+
+}
+
+.second_box {
+
+}
+
+.title_text_second_box_h1 {
+
+}
+
+.title_text_second_box_h2 {
+
 }
 
 .Item_box_image_1 {
   background: rgb(248, 248, 248);
+}
+
+.text_item_box_h1 {
+
+}
+
+.text_item_box_h3 {
+
+}
+
+.price_text_box_h2 {
+  color: rgb(241, 109, 127);
 }
 
 .Item_box_image_2 {
