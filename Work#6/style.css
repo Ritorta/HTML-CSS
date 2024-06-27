@@ -109,8 +109,6 @@ body {
 }
 
 .main {
-  
-  
 }
 
 .offer_box {
@@ -123,14 +121,25 @@ body {
   margin-left: auto;
   margin-right: auto;
   column-gap: 30px;
+  row-gap: 30px;
 }
 
 .image_mask {
-  /* background-image: url(./img/mask_firt_box.svg);
-  fill: rgba(33, 22, 22, 0.7); */
+  
+  background-image: url(./img/mask_firt_box.svg);
+  fill: rgba(33, 22, 22, 0.7);
+  background-position: center;
+  opacity: 0.7;
+}
+
+.image_mask_long {
+
 }
 
 .text_card {
+  color: white;
+  text-align: center;
+  
 }
 
 .baner_color_text {
@@ -140,6 +149,10 @@ body {
 .frst_card_image_1 {
   width: 360px;
   height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./img/backround_for_women.png");
 }
 
 .second_card_image_2 {
@@ -168,6 +181,7 @@ body {
   justify-content: center;
   align-content: center;
   column-gap: 30px;
+  row-gap: 30px;
 }
 
 .title_text_second_box_h1 {
@@ -178,7 +192,7 @@ body {
 
 .title_text_second_box_h2 {
   grid-column: 1 / -1;
-  grid-row: 1;
+  grid-row: 2;
 }
 
 .Item_box_image_1 {
@@ -186,13 +200,22 @@ body {
 }
 
 .text_item_box_h1 {
+  font-weight: 400;
+  font-size: 13px;
+  color: #000;
 }
 
 .text_item_box_h3 {
+  font-weight: 300;
+  font-size: 14px;
+  color: #5d5d5d;
 }
 
 .price_text_box_h2 {
-  color: rgb(241, 109, 127);
+  font-weight: 400;
+  font-size: 16px;
+  color: #f16d7f;
+  /* color: rgb(241, 109, 127); */
 }
 
 .Item_box_image_2 {
@@ -216,7 +239,7 @@ body {
 }
 
 .brouse_button {
-  position: absolute;
+  background-color: transparent;
   width: 211px;
   height: 47px;
   border: 1px solid rgb(255, 106, 106);
