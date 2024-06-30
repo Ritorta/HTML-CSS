@@ -10,10 +10,6 @@ body {
   width: 1140px;
   margin: 0 auto;
   padding: 0;
-  /* Гриды под вопросом */
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 30px; */
 }
 
 .header {
@@ -39,8 +35,8 @@ body {
 }
 
 .button_menu_icon_search {
-  /* content: url(./img/icon_search.svg);
-  fill: #e8e8e8; */
+  /* content: url(./img/icon_search.svg); */
+  fill: #e8e8e8;
   background-color: transparent;
   border: none;
 }
@@ -54,8 +50,8 @@ body {
 }
 
 .button_menu_icon_menu {
-  /* content: url(./img/icon_menu.svg);
-  fill: #e8e8e8; */
+  /* content: url(./img/icon_menu.svg); */
+  fill: #e8e8e8;
   background-color: transparent;
   border: none;
   margin-top: 30px;
@@ -63,8 +59,8 @@ body {
 }
 
 .button_menu_icon_profile {
-  /* content: url(./img/icon_profile.svg);
-  fill: #e8e8e8; */
+  /* content: url(./img/icon_profile.svg); */
+  fill: #e8e8e8;
   background-color: transparent;
   border: none;
   margin-top: 26px;
@@ -72,8 +68,8 @@ body {
 }
 
 .button_menu_icon_backed {
-  /* content: url(./img/icon_basked.svg);
-  fill: #e8e8e8; */
+  /* content: url(./img/icon_basked.svg); */
+  fill: #e8e8e8;
   background-color: transparent;
   border: none;
   margin-top: 26px;
@@ -87,8 +83,7 @@ body {
   max-width: 1600px;
   margin: 0 auto;
   background: rgb(241, 228, 230);
-  /* padding-left: calc(50% - 800px);
-  padding-right: calc(50% - 800px); */
+  font-family: var(--font-family);
 }
 
 .banner_image {
@@ -107,14 +102,17 @@ body {
   font-weight: 900;
   font-size: 48px;
   color: #222;
+  margin-left: 16px;
 }
 
 .baner_rigth_line_text h2 {
   font-weight: 700;
   font-size: 32px;
+  margin-left: 16px;
 }
 
 .main {
+
 }
 
 .offer_box {
@@ -138,7 +136,6 @@ body {
   background-image: url(./img/mask_firt_box.png);
   fill: rgba(33, 22, 22, 0.7);
   background-position: center;
-  opacity: 0.7;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,13 +146,21 @@ body {
 }
 
 .text_card {
-  color: white;
-  text-align: center;
   
 }
 
-.baner_color_text {
+.baner_color_text_h3 {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.baner_color_text_h2 {     
+  font-weight: 700;
+  font-size: 24px;
   color: #f16d7f;
+  text-align: center;
 }
 
 .frst_card_image_1 {
@@ -189,21 +194,32 @@ body {
   grid-template-columns: repeat(3, 1fr);
   width: 1140px;
   justify-items: center;
-  justify-content: center;
-  align-content: center;
+  /* justify-content: center; */
+  /* align-content: center; */
   column-gap: 30px;
   row-gap: 30px;
+  padding-bottom: 95px;
 }
 
 .title_text_second_box_h1 {
+  font-weight: 400;
+  font-size: 30px;
+  color: #222;
+  justify-items: center;
   grid-column: 1 / -1;
-  grid-row: 1;
   margin-bottom: 6px;
 }
 
 .title_text_second_box_h2 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #9f9f9f;
   grid-column: 1 / -1;
-  grid-row: 2;
+  margin-bottom: 48px;
+}
+
+.Item_box_text {
+  margin: 16px 24px;
 }
 
 .Item_box_image_1 {
@@ -220,13 +236,14 @@ body {
   font-weight: 300;
   font-size: 14px;
   color: #5d5d5d;
+  margin: 16px 0;
 }
 
 .price_text_box_h2 {
   font-weight: 400;
   font-size: 16px;
   color: #f16d7f;
-  /* color: rgb(241, 109, 127); */
+  color: rgb(241, 109, 127);
 }
 
 .Item_box_image_2 {
@@ -255,5 +272,5 @@ body {
   height: 47px;
   border: 1px solid rgb(255, 106, 106);
   grid-column: 2 / -2;
-
+  margin-top: 48px;
 }
