@@ -6,7 +6,8 @@ body {
 
 .conteiner {
   font-family: var(--font-family);
-  max-width: 100%;
+  /* max-width: 100%; */
+  width: 1140px;
   margin: 0 auto;
   padding: 0;
   /* Гриды под вопросом */
@@ -19,6 +20,7 @@ body {
 }
 
 .head_menu {
+  width: 1600px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-image: url("./img/menu_fon.svg");
@@ -82,7 +84,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1600px;
+  margin: 0 auto;
   background: rgb(241, 228, 230);
+  /* padding-left: calc(50% - 800px);
+  padding-right: calc(50% - 800px); */
 }
 
 .banner_image {
@@ -122,14 +128,20 @@ body {
   margin-right: auto;
   column-gap: 30px;
   row-gap: 30px;
+  padding-top: 65px;
+  padding-bottom: 100px;
 }
 
 .image_mask {
-  
-  background-image: url(./img/mask_firt_box.svg);
+  width: 100%;
+  height: 100%;
+  background-image: url(./img/mask_firt_box.png);
   fill: rgba(33, 22, 22, 0.7);
   background-position: center;
   opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .image_mask_long {
@@ -149,25 +161,25 @@ body {
 .frst_card_image_1 {
   width: 360px;
   height: 260px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-image: url("./img/backround_for_women.png");
 }
 
 .second_card_image_2 {
   width: 360px;
   height: 260px;
+  background-image: url("./img/backround_for_men.png");
 }
 
 .Third_card_image_3 {
   width: 360px;
   height: 260px;
+  background-image: url("./img/backround_for_kinds.png");
 }
 
 .Four_card_image_4 {
   width: 1140px;
   height: 180px;
+  background-image: url("./img/backround_accesories.png");
   grid-column: 1 / -1;
   grid-row: 2;
 }
@@ -176,7 +188,6 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 1140px;
-  height: 1395px;
   justify-items: center;
   justify-content: center;
   align-content: center;
@@ -243,4 +254,6 @@ body {
   width: 211px;
   height: 47px;
   border: 1px solid rgb(255, 106, 106);
+  grid-column: 2 / -2;
+
 }
