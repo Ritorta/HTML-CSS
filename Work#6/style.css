@@ -22,7 +22,27 @@ body {
   background-image: url("./img/menu_fon.svg");
   fill: #222;
   background-size: cover;
+  /* Начало тестового кода */
+  position: relative;
 }
+
+.head_menu::before,
+.head_menu::after {
+  content: '';
+  position: absolute;
+  width: 230.5px; 
+  height: 100%;
+  background-color: #222; 
+}
+
+.head_menu::before {
+  left: -230px; 
+}
+
+.head_menu::after {
+  right: -230px; 
+}
+/* Конец тестового кода */
 
 .menu_left_site {
   display: flex;
