@@ -16,7 +16,7 @@ body {
 }
 
 .head_menu {
-  width: 1600px;
+  /* width: 1600px; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-image: url("./img/menu_fon.svg");
@@ -29,7 +29,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   column-gap: 41px;
-  margin-left: 231px;
+  /* margin-left: 231px; */
 }
 
 .menu_logo {
@@ -46,7 +46,7 @@ body {
   align-items: center;
   justify-content: flex-end;
   column-gap: 33px;
-  margin-right: 240px;
+  /* margin-right: 240px; */
 }
 
 .button_menu_icon_menu {
