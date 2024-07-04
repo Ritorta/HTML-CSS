@@ -16,20 +16,40 @@ body {
 }
 
 .head_menu {
-  width: 1600px;
+  /* width: 1600px; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-image: url("./img/menu_fon.svg");
   fill: #222;
   background-size: cover;
+  /* Начало тестового кода */
+  position: relative;
 }
+
+.head_menu::before,
+.head_menu::after {
+  content: '';
+  position: absolute;
+  width: 230.5px; 
+  height: 100%;
+  background-color: #222; 
+}
+
+.head_menu::before {
+  left: -230px; 
+}
+
+.head_menu::after {
+  right: -230px; 
+}
+/* Конец тестового кода */
 
 .menu_left_site {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   column-gap: 41px;
-  margin-left: 231px;
+  /* margin-left: 231px; */
 }
 
 .menu_logo {
@@ -46,7 +66,7 @@ body {
   align-items: center;
   justify-content: flex-end;
   column-gap: 33px;
-  margin-right: 240px;
+  /* margin-right: 240px; */
 }
 
 .button_menu_icon_menu {
@@ -290,4 +310,57 @@ body {
   color: #f16d7f;
   grid-column: 2 / -2;
   margin-top: 48px;
+}
+@media(min-width: 768px) and (max-width: 1140px) {
+
+  .conteiner {
+    max-width: 768px;
+  }
+
+  .head_menu::before,
+.head_menu::after {
+  width: 0px; 
+  }
+
+  .banner_image {
+    width: 386px;
+    height: 386px;
+  }
+
+  .offer_box {
+    max-width: 736px;
+    max-height: 303px;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .frst_card_image_1 {
+    width: 232px;
+    height: 167px;
+  }
+
+  .second_card_image_2 {
+    width: 232px;
+    height: 167px;
+  }
+
+  .Third_card_image_3 {
+    width: 232px;
+    height: 167px;
+  }
+
+  .Four_card_image_4 {
+    width: 736px;
+    height: 116px;
+  }
+
+  .product_box {
+    max-width: 736px;
+    gap: 16px; 
+  }
+
+  .brouse_button {
+    grid-column: 1 / -1;
+  }
+
 }
