@@ -406,7 +406,6 @@ body {
     grid-column: 1 / -1;
     margin-top: 32px;
   }
-
 }
 
 @media(max-width: 767px) {
@@ -420,4 +419,61 @@ body {
   width: 0px; 
   }
 
+  .button_menu_icon_profile {
+    display: none;
+  }
+  
+  .button_menu_icon_backed {
+    display: none;
+  }
+
+  .baner_backround {
+    width: 375px;
+    height: 363px;
+  }
+
+  .banner_image {
+    display: none;
+  }
+
+  .offer_box {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-content: normal;
+  }
+
+  .frst_card_image_1 {
+    width: 343px;
+    height: 247px;
+    background-size: cover;
+  }
+
+  .second_card_image_2 {
+    width: 343px;
+    height: 247px;
+    background-size: cover;
+  }
+
+  .Third_card_image_3 {
+    width: 343px;
+    height: 247px;
+    background-size: cover;
+  }
+
+  .Four_card_image_4 {
+    width: 343px;
+    height: 111px;
+    background-position: center;
+    grid-row: 4;
+    
+  }
+
+  .product_box {
+    width: 100%;
+    grid-template-columns: 1fr;
+    /* justify-items: normal; */
+    gap: 16px 0; 
+  }
+
 }
+

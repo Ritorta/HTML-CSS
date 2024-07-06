@@ -312,7 +312,6 @@ body {
   color: #f16d7f;
   grid-column: 2 / -2;
   margin-top: 48px;
-
 }
 
 @media(min-width: 768px) and (max-width: 1140px) {
@@ -407,5 +406,4 @@ body {
     grid-column: 1 / -1;
     margin-top: 32px;
   }
-
 }
