@@ -213,7 +213,6 @@ body {
 .product {
   display: grid;
   justify-items: center;
-  padding-top: 64px;
 }
 
 .product_box {
@@ -505,6 +504,7 @@ body {
   }
 
   .offer_box {
+    max-height: none;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     justify-items: center;
     align-content: normal;
@@ -533,6 +533,7 @@ body {
   .Four_card_image_4 {
     width: 343px;
     height: 111px;
+    background-size: cover;
     background-position: center;
     grid-row: 4; 
   }
@@ -546,7 +547,7 @@ body {
   }
 
   .product {
-
+    max-height: none;
   }
 
   .product_box {
