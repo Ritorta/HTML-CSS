@@ -269,37 +269,37 @@ body {
 
 .Item_box_image_1 {
   width: 360px;
-  height: 587x;
+  height: 587px;
   background: rgb(248, 248, 248);
 }
 
 .Item_box_image_2 {
   width: 360px;
-  height: 587x;
+  height: 587px;
   background: rgb(248, 248, 248);
 } 
 
 .Item_box_image_3 {
   width: 360px;
-  height: 587x;
+  height: 587px;
   background: rgb(248, 248, 248);
 }
 
 .Item_box_image_4 {
   width: 360px;
-  height: 587x;
+  height: 587px;
   background: rgb(248, 248, 248);
 }
 
 .Item_box_image_5 {
   width: 360px;
-  height: 587x;
+  height: 587px;
   background: rgb(248, 248, 248);
 }
 
 .Item_box_image_6 {
   width: 360px;
-  height: 587x;
+  height: 587px;
   background: rgb(248, 248, 248);
 }
 
@@ -408,6 +408,30 @@ body {
     max-width: 736px;
     padding-bottom: 70px;
     gap: 16px; 
+  }
+
+  .Item_box_image_1 {
+    height: 581px;
+  }
+  
+  .Item_box_image_2 {
+    height: 581px;
+  } 
+  
+  .Item_box_image_3 {
+    height: 581px;
+  }
+  
+  .Item_box_image_4 {
+    height: 581px;
+  }
+  
+  .Item_box_image_5 {
+    height: 581px;
+  }
+  
+  .Item_box_image_6 {
+    height: 581px;
   }
 
   .brouse_button {
@@ -521,10 +545,38 @@ body {
     margin-bottom: 65px;
   }
 
+  .product {
+
+  }
+
   .product_box {
     width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     gap: 16px 0; 
+  }
+
+  .Item_box_image_1 {
+    height: 580px;
+  }
+  
+  .Item_box_image_2 {
+    height: 580px;
+  } 
+  
+  .Item_box_image_3 {
+    height: 580px;
+  }
+  
+  .Item_box_image_4 {
+    height: 580px;
+  }
+  
+  .Item_box_image_5 {
+    height: 580px;
+  }
+  
+  .Item_box_image_6 {
+    height: 580px;
   }
 
 }
