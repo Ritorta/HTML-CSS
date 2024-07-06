@@ -405,7 +405,7 @@ body {
 
   .product_box {
     max-width: 736px;
-    padding-bottom: 70px;
+    padding-bottom: 65px;
     gap: 16px; 
   }
 
@@ -553,6 +553,7 @@ body {
   .product_box {
     width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    padding-bottom: 95px;
     gap: 16px 0; 
   }
 
@@ -580,5 +581,9 @@ body {
     height: 580px;
   }
 
+  .brouse_button {
+    grid-column: 1 / -1;
+    margin-top: 40px;
+  }
 }
 
