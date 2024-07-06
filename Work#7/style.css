@@ -148,7 +148,7 @@ body {
   column-gap: 30px;
   row-gap: 30px;
   padding-top: 65px;
-  padding-bottom: 100px;
+  padding-bottom: 96px;
 }
 
 .image_mask {
@@ -356,7 +356,6 @@ body {
   .head_baner_color_text {
     font-weight: 700;
     font-size: 24px;
-    color: #f16d7f;
   }
 
   .banner_image {
@@ -394,6 +393,14 @@ body {
     width: 736px;
     height: 116px;
     background-size: cover;
+  }
+
+  .title_text_second_box_h1 {
+    margin-bottom: 4px;
+  }
+  
+  .title_text_second_box_h2 {
+    margin-bottom: 74px;
   }
 
   .product_box {

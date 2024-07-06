@@ -213,6 +213,7 @@ body {
 .product {
   display: grid;
   justify-items: center;
+  padding-top: 64px;
 }
 
 .product_box {
@@ -356,7 +357,6 @@ body {
   .head_baner_color_text {
     font-weight: 700;
     font-size: 24px;
-    color: #f16d7f;
   }
 
   .banner_image {
@@ -396,6 +396,14 @@ body {
     background-size: cover;
   }
 
+  .title_text_second_box_h1 {
+    margin-bottom: 4px;
+  }
+  
+  .title_text_second_box_h2 {
+    margin-bottom: 74px;
+  }
+
   .product_box {
     max-width: 736px;
     padding-bottom: 70px;
@@ -419,6 +427,51 @@ body {
   width: 0px; 
   }
 
+  .menu_left_site {
+    margin-left: 16px;
+  }
+
+  .menu_rigth_site {
+    margin-right: 16px;
+  }
+
+  .baner_backround {
+    width: 375px;
+    height: 363px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  .banner_image {
+    display: none;
+  }
+
+  .baner_rigth_line_text {
+    width: 263px;
+    height: 66px;
+    border-left: 12px solid #f16d7f;
+    margin-left: 0px;
+  }
+
+  .baner_rigth_line_text_h1 {
+    font-weight: 900;
+    font-size: 38px;
+    color: #222;
+    margin-left: 16px;
+  }
+  
+  .baner_rigth_line_text_h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 16px;
+  }
+  
+  .head_baner_color_text {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
   .button_menu_icon_profile {
     display: none;
   }
@@ -427,19 +480,12 @@ body {
     display: none;
   }
 
-  .baner_backround {
-    width: 375px;
-    height: 363px;
-  }
-
-  .banner_image {
-    display: none;
-  }
-
   .offer_box {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     justify-items: center;
     align-content: normal;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 
   .frst_card_image_1 {
@@ -464,14 +510,20 @@ body {
     width: 343px;
     height: 111px;
     background-position: center;
-    grid-row: 4;
-    
+    grid-row: 4; 
+  }
+
+  .title_text_second_box_h1 {
+    margin-bottom: 3px;
+  }
+  
+  .title_text_second_box_h2 {
+    margin-bottom: 65px;
   }
 
   .product_box {
     width: 100%;
-    grid-template-columns: 1fr;
-    /* justify-items: normal; */
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     gap: 16px 0; 
   }
 
