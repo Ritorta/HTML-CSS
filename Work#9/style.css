@@ -124,6 +124,7 @@ body {
   margin: 0 auto;
   background: rgb(241, 228, 230);
   font-family: var(--font-family);
+  position: relative;
 }
 
 .banner_image {
@@ -157,8 +158,73 @@ body {
   color: #f16d7f;
 }
 
+.menu {
+  max-width: 232px;
+  max-height: 634px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #fff;
+  padding: 32px;
+  box-shadow: 6px 4px 35px 0 rgba(0, 0, 0, 0.21);
+
+}
+
+.title_h1 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 24px;
+}
+
+.menu_category {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu_category_man {
+
+}
+
+.menu_list_man {
+  width: 100px;
+  height: 130px
+}
+
+.menu_category_women {
+
+}
+
 .main {
 
+}
+
+.menu_list_women {
+  width: 126px;
+  height: 163px;
+}
+
+.menu_category_kinds {
+
+}
+
+.menu_list_kids {
+  width: 126px;
+  height: 196px;
+}
+
+
+.menu_title {
+  font-weight: 400;
+  font-size: 14px;
+  color: #f16d7f;
+}
+
+.menu_link {
+  font-weight: 400;
+  font-size: 14px;
+  color: #6f6e6e;
 }
 
 .offer_box {
