@@ -189,7 +189,7 @@ body {
 
 .menu_list_man {
   width: 100px;
-  height: 130px;
+  /* height: 130px; */
   display: flex;
   flex-direction: column;
   margin-top: 12px;
@@ -207,7 +207,7 @@ body {
 
 .menu_list_women {
   width: 126px;
-  height: 163px;
+  /* height: 163px; */
   display: flex;
   flex-direction: column;
   margin-top: 12px;
@@ -221,7 +221,7 @@ body {
 
 .menu_list_kids {
   width: 126px;
-  height: 196px;
+  /* height: 196px; */
   display: flex;
   flex-direction: column;
   margin-top: 12px;
