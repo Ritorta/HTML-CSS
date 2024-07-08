@@ -313,90 +313,164 @@ body {
   grid-column: 2 / -2;
   margin-top: 48px;
 }
-
+/* -------------------------------------- */
 .features {
-
+  height: 341px;
+  background-color: #222224;
+  font-family: var(--font-family);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .delivery {
-
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 360px;
+  height: 134px;
 }
 
 .free_delivery_image {
 
 }
 
-.free_delivery_h1 {
-
-}
-
 .sales {
-
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 360px;
+  height: 134px;
 }
 
 .sales_discount_image {
 
 }
 
-.sales_discount_h1 {
-
-}
-
 .quality {
-
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 360px;
+  height: 134px;
 }
 
 .quality_assurance_image {
 
 }
 
-.quality_assurance_h1 {
-
+.all_features_text_h1 {
+  font-weight: 400;
+  font-size: 19px;
+  color: #fbfbfb;
 }
 
 .all_features_text_h3 {
-
+  font-weight: 300;
+  font-size: 13px;
+  text-align: center;
+  color: #fbfbfb;
 }
 
 .box_down_baner {
-
+  font-family: var(--font-family);
+  background-color: #d73c3c;
 }
 
 .down_image {
+  height: 448px;
   background-image: url("./img/down_baner_safary.png");
+  background-size: 100% 100%;
+  background-position: center;
 }
 
 .down_mask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-position: center;
   background-image: url("./img/down_mask_baner.png");
 }
 
 .box_down_left_elemetns {
-
+  width: 359px;
+  height: 224px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 233px;
 }
 
 .down_image_woman_head {
-
+  width: 96px;
+  height: 96px;
 }
 
 .box_text_left_element_h2 {
-
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #222224;
+  font-style: italic;
 }
 
 .box_down_rigth_elemetns {
+  width: 557px;
+  height: 142px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
 
-.box_text_left_element_h1 {
+.box_text_rigth_element_h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167%;
+  text-align: center;
+  color: #222224;
+}
 
+.box_text_rigth_element_h2 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.buttons_box_down {
+  display: flex;
+  justify-content: center;
+  width: 356px;
+  height: 49px;
 }
 
 .box_button_1 {
-
+  background-color: #e1e1e1;
 }
 
 .box_button_2 {
-
+  background-color: #f16d7f;
 }
+
+.Enter_email_button_text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #222224;
+}
+
+.Subscribe_button_text {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+}
+
+
+
 
 .copyright {
 
