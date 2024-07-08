@@ -314,6 +314,138 @@ body {
   margin-top: 48px;
 }
 
+.features {
+
+}
+
+.delivery {
+
+}
+
+.free_delivery_image {
+
+}
+
+.free_delivery_h1 {
+
+}
+
+.sales {
+
+}
+
+.sales_discount_image {
+
+}
+
+.sales_discount_h1 {
+
+}
+
+.quality {
+
+}
+
+.quality_assurance_image {
+
+}
+
+.quality_assurance_h1 {
+
+}
+
+.all_features_text_h3 {
+
+}
+
+.box_down_baner {
+
+}
+
+.down_image {
+  background-image: url("./img/down_baner_safary.png");
+}
+
+.down_mask {
+  background-image: url("./img/down_mask_baner.png");
+}
+
+.box_down_left_elemetns {
+
+}
+
+.down_image_woman_head {
+
+}
+
+.box_text_left_element_h2 {
+
+}
+
+.box_down_rigth_elemetns {
+
+}
+
+.box_text_left_element_h1 {
+
+}
+
+.box_button_1 {
+
+}
+
+.box_button_2 {
+
+}
+
+.copyright {
+
+}
+
+.copy_left_site {
+
+}
+
+.copy_text_left_site_h2 {
+
+}
+
+.copy_rigth_site {
+
+}
+
+.img_facebook {
+  background-image: url("./img/facebook.svg");
+}
+
+.img_facebook_mask {
+
+}
+
+.img_instagramm {
+  background-image: url("./img/instagram.svg");
+}
+
+.img_instagramm_mask {
+
+}
+
+.img_pinteres {
+  background-image: url("./img/pinterest.svg");
+}
+
+.img_pinteres_mask {
+
+}
+
+.img_twwiter {
+  background-image: url("./img/twitter1.svg");
+}
+
+.img_twwiter_mask {
+
+}
+
 @media(min-width: 768px) and (max-width: 1140px) {
 
   .conteiner {
