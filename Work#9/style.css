@@ -86,11 +86,34 @@ body {
 }
 
 .button_menu_icon_backed {
+  width: 41px;
+  height: 37px;
   fill: #e8e8e8;
   background-color: transparent;
   border: none;
   margin-top: 26px;
   margin-bottom: 20px;
+}
+
+.eclipse_5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background-color: #f16d7f;
+  position: absolute;
+  margin-top: 22px;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+}
+
+.eclipse_5_text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
 }
 
 .baner_backround {
@@ -473,30 +496,52 @@ body {
 
 
 .copyright {
+  height: 79px;
+  font-family: var(--font-family);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("./img/down_black_background.png");
 
 }
 
 .copy_left_site {
-
+  
 }
 
 .copy_text_left_site_h2 {
-
+  font-weight: 400;
+  font-size: 16px;
+  color: #fbfbfb;
 }
 
 .copy_rigth_site {
-
+  display: flex;
+  flex-direction: row
 }
 
 .img_facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+
   /* background-image: url("./img/facebook.svg"); */
 }
 
 .img_facebook_mask {
-
+  
 }
 
 .img_instagramm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
   /* background-image: url("./img/instagram.svg"); */
 }
 
@@ -505,6 +550,12 @@ body {
 }
 
 .img_pinteres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
   /* background-image: url("./img/pinterest.svg"); */
 }
 
@@ -513,6 +564,12 @@ body {
 }
 
 .img_twwiter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
   /* background-image: url("./img/twitter1.svg"); */
 }
 
