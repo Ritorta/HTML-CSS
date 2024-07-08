@@ -93,6 +93,7 @@ body {
   border: none;
   margin-top: 26px;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .eclipse_5 {
@@ -103,8 +104,7 @@ body {
   height: 20px;
   background-color: #f16d7f;
   position: absolute;
-  margin-top: 22px;
-  top: 0;
+  top: -5px;
   right: 0;
   border-radius: 50%;
 }
