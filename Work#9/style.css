@@ -338,6 +338,8 @@ body {
 }
 
 .features {
+  max-width: 1600px;
+  margin: 0 auto;
   height: 341px;
   background-color: #222224;
   font-family: var(--font-family);
@@ -401,6 +403,8 @@ body {
 }
 
 .box_down_baner {
+  max-width: 1600px;
+  margin: 0 auto;
   font-family: var(--font-family);
   background-color: #d73c3c;
 }
@@ -509,6 +513,8 @@ body {
 }
 
 .copyright {
+  max-width: 1600px;
+  margin: 0 auto;
   height: 79px;
   font-family: var(--font-family);
   display: flex;
