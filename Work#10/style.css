@@ -532,6 +532,17 @@ body {
   grid-column: 2 / -2;
   margin-top: 48px;
   cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.brouse_button:hover {
+  background-color: #F16D7F;
+  transition: background-color 0.5s;
+}
+
+.brouse_button:hover {
+  color: #fff; 
+  transition: color 0.5s;
 }
 
 .features {
