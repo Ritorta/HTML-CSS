@@ -702,12 +702,27 @@ body {
   width: 32px;
   height: 32px;
   background-color: #fff;
+  cursor: pointer;
   /* background-image: url("./img/facebook.svg"); */
 }
 
-.img_facebook_mask {
+.img_facebook:hover,
+.img_facebook:hover svg path {
+  background-color: #F16D7F;
+  fill: #fff; 
+}
+
+/* .img_facebook:hover {
+  background-color: #F16D7F; 
+} */
+
+/* .img_facebook_mask {
   
 }
+
+.img_facebook_mask:hover svg path {
+  fill: #fff;
+} */
 
 .img_instagramm {
   display: flex;
@@ -716,8 +731,19 @@ body {
   width: 32px;
   height: 32px;
   background-color: #fff;
+  cursor: pointer;
   /* background-image: url("./img/instagram.svg"); */
 }
+
+.img_instagramm:hover,
+.img_instagramm:hover svg path {
+  background-color: #F16D7F;
+  fill: #fff; 
+}
+
+/* .img_instagramm:hover {
+  background-color: #F16D7F; 
+} */
 
 .img_instagramm_mask {
 
@@ -730,8 +756,19 @@ body {
   width: 32px;
   height: 32px;
   background-color: #fff;
+  cursor: pointer;
   /* background-image: url("./img/pinterest.svg"); */
 }
+
+.img_pinteres:hover,
+.img_pinteres:hover svg path {
+  background-color: #F16D7F;
+  fill: #fff; 
+}
+
+/* .img_pinteres:hover {
+  background-color: #F16D7F; 
+} */
 
 .img_pinteres_mask {
 
@@ -744,8 +781,19 @@ body {
   width: 32px;
   height: 32px;
   background-color: #fff;
+  cursor: pointer;
   /* background-image: url("./img/twitter1.svg"); */
 }
+
+.img_twwiter:hover,
+.img_twwiter:hover svg path {
+  background-color: #F16D7F;
+  fill: #fff; 
+}
+
+/* .img_twwiter:hover {
+  background-color: #F16D7F; 
+} */
 
 .img_twwiter_mask {
 
