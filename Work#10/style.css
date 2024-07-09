@@ -213,6 +213,7 @@ body {
   margin-top: 12px;
   gap: 11px;
   padding-left: 21px;
+  list-style-type: none;
 }
 
 .menu_category_women {
@@ -231,6 +232,7 @@ body {
   margin-top: 12px;
   gap: 11px;
   padding-left: 21px;
+  list-style-type: none;
 }
 
 .menu_category_kinds {
@@ -245,6 +247,7 @@ body {
   margin-top: 12px;
   gap: 11px;
   padding-left: 21px;
+  list-style-type: none;
 }
 
 .menu_title {
