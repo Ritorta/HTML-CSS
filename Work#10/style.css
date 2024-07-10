@@ -6,49 +6,39 @@ body {
 
 .conteiner {
   font-family: var(--font-family);
-  max-width: 100%;
   width: 1140px;
   margin: 0 auto;
-  padding: 0;
 }
 
 .header {
+  position: relative;
+  background-color: transparent;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  max-width: 1600px;
+  height: 75px;
+  background-color: #222;
+  transform: translateX(-50%);
+  z-index: -1;
 }
 
 .head_menu {
-  /* width: 1600px; */
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  background-image: url("./img/menu_fon.svg");
-  fill: #222;
-  background-size: cover;
-  /* Начало тестового кода */
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.head_menu::before,
-.head_menu::after {
-  content: '';
-  position: absolute;
-  width: 230.5px; 
-  height: 100%;
-  background-color: #222; 
-}
-
-.head_menu::before {
-  left: -230px; 
-}
-
-.head_menu::after {
-  right: -230px; 
-}
-/* Конец тестового кода */
 
 .menu_left_site {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   column-gap: 41px;
+  /* justify-content: flex-start; */
   /* margin-left: 231px; */
 }
 
@@ -66,8 +56,8 @@ body {
 .menu_rigth_site {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   column-gap: 33px;
+  /* justify-content: flex-end; */
   /* margin-right: 240px; */
 }
 
@@ -122,11 +112,11 @@ body {
 }
 
 .baner_backround {
+  width: 100%;
+  max-width: 1600px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  max-width: 1600px;
-  margin: 0 auto;
   background: rgb(241, 228, 230);
   font-family: var(--font-family);
   position: relative;
@@ -905,12 +895,11 @@ body {
 @media(min-width: 768px) and (max-width: 1140px) {
 
   .conteiner {
-    max-width: 768px;
+    width: 100%;
   }
 
-  .head_menu::before,
-  .head_menu::after {
-  width: 0px; 
+  .header::after {
+    max-width: 1140px; 
   }
 
   .menu_left_site {
@@ -919,6 +908,10 @@ body {
 
   .menu_rigth_site {
     margin-right: 41px;
+  }
+  
+  .baner_backround {
+    max-width: 1140px; 
   }
   
   .baner_rigth_line_text {
@@ -1030,12 +1023,11 @@ body {
 @media(max-width: 767px) {
 
   .conteiner {
-    max-width: 375px;
+    width: 100%;
   }
 
-  .head_menu::before,
-  .head_menu::after {
-  width: 0px; 
+  .header::after {
+    max-width: 767px; 
   }
 
   .menu_left_site {
@@ -1047,11 +1039,11 @@ body {
   }
 
   .baner_backround {
-    width: 375px;
+    width: 100%;
     height: 363px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
   }
 
   .banner_image {
@@ -1092,6 +1084,7 @@ body {
   }
 
   .offer_box {
+    width: 100%;
     max-height: none;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     justify-items: center;
@@ -1101,25 +1094,25 @@ body {
   }
 
   .frst_card_image_1 {
-    width: 343px;
+    width: 320px;
     height: 247px;
     background-size: cover;
   }
 
   .second_card_image_2 {
-    width: 343px;
+    width: 320px;
     height: 247px;
     background-size: cover;
   }
 
   .Third_card_image_3 {
-    width: 343px;
+    width: 320px;
     height: 247px;
     background-size: cover;
   }
 
   .Four_card_image_4 {
-    width: 343px;
+    width: 320px;
     height: 111px;
     background-size: cover;
     background-position: center;
@@ -1132,9 +1125,11 @@ body {
   
   .title_text_second_box_h2 {
     margin-bottom: 65px;
+    font-weight: 400;
+    font-size: 13px;
   }
 
-  .product {
+  /* .product {
     max-height: none;
   }
 
@@ -1172,6 +1167,54 @@ body {
   .brouse_button {
     grid-column: 1 / -1;
     margin-top: 40px;
+  } */
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0px 16px;
+  }
+
+  .Item_box_image_1 {
+
+    height: 580px;
+  }
+  
+  .Item_box_image_2 {
+
+    height: 580px;
+  } 
+  
+  .Item_box_image_3 {
+
+    height: 580px;
+  }
+  
+  .Item_box_image_4 {
+
+    height: 580px;
+  }
+  
+  .Item_box_image_5 {
+
+    height: 580px;
+  }
+  
+  .Item_box_image_6 {
+ 
+    height: 580px;
+  }
+
+  .brouse_button {
+    grid-column: 1 / -1;
+    margin-top: 40px;
   }
 }
-
