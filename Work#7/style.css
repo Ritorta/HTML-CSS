@@ -11,20 +11,21 @@ body {
 }
 
 .header {
-  position: relative; /* Для позиционирования псевдоэлемента */
-  background-color: transparent; /* Убираем цвет фона у основного блока */
+  position: relative;
+  background-color: transparent;
 }
 
 .header::after {
-  content: ''; /* Необходимо для создания псевдоэлемента */
+  content: '';
   position: absolute;
-  top: 0; /* Расположение полосы сверху блока */
-  left: 50%; /* Центрирование полосы */
-  width: 1600px; /* Ширина полосы */
-  height: 75px; /* Высота полосы, как у фонового изображения */
-  background-color: #222; /* Цвет фона полосы */
-  transform: translateX(-50%); /* Смещение полосы на половину её ширины влево */
-  z-index: -1; /* Полоса будет под содержимым блока .header */
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  max-width: 1600px;
+  height: 75px;
+  background-color: #222;
+  transform: translateX(-50%);
+  z-index: -1;
 }
 
 .head_menu {
@@ -83,7 +84,8 @@ body {
 }
 
 .baner_backround {
-  width: 1600px;
+  width: 100%;
+  max-width: 1600px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -309,7 +311,7 @@ body {
   }
 
   .header::after {
-    width: 100%; 
+    
     max-width: 1140px; 
   }
 
@@ -322,7 +324,8 @@ body {
   }
   
   .baner_backround {
-    max-width: 1140px;
+     
+    max-width: 1140px; 
   }
 
   .baner_rigth_line_text {
